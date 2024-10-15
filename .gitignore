@@ -1,0 +1,53 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+out/
+
+# Cache files
+.cache/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs and temporary files
+*.log
+yarn-debug.log*
+npm-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies installed via package manager lockfiles
+# (only include if you're managing them differently per project)
+# yarn.lock
+# package-lock.json
+
+# Git-specific files
+.git/
+.gitignore
+
+# Webpack/Parcel/Other build files
+*.cache/
+*.map
+
+# Static files and uploads (if managed elsewhere)
+uploads/
