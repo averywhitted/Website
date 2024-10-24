@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", fetchArticles);
 async function fetchArticles() {
   // Replace with your Google Sheets API URL
   const sheetUrl =
-    "https://sheets.googleapis.com/v4/spreadsheets/1Lcr4GQZOI_S2yvA2vPe56AsZnT_Vr2EKBR9lRNETb0s/values/Sheet1?key=AIzaSyAvxOVwGOLgSKGgvOxyZjvHu5i0zbGD2SQ";
+    "https://sheets.googleapis.com/v4/spreadsheets/YOUR_SHEET_ID/values/YOUR_SHEET_NAME?key=YOUR_API_KEY";
 
   try {
     const response = await fetch(sheetUrl);
